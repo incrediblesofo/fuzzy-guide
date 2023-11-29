@@ -1,0 +1,15 @@
+.mywork {
+    padding: 20px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust alignment as needed */
+}
+
+.list {
+    margin: 10px;
+    text-align: center; /* Optional */
+}

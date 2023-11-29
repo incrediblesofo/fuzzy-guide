@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="st.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="contain">
+                <nav>
+                    <img src="C:\Users\gentle\Documents\Activision\sofo.png" class="logo" width="200" height="200">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">portofolio</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Web Designer</p>
+                    <h1>Hi, I'm <span>sofonias</span><br>from Ethiopia</h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="contain">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="download (3).jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>web developer,The viewport is the user's visible area of a web page. The viewport varies with the device,
+                            <br> and will be smaller on a mobile phone than on a computer screen. Before tablets and mobile phones,
+                            <br> web pages were designed only for computer screens,
+                            <br> and it was common for web pages to have a static design and a fixed size.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('skills', event)">skills</p>
+                            <p class="tab-links" onclick="opentab('experience', event)">experience</p>
+                            <p class="tab-links" onclick="opentab('education', event)">education</p>
+                        </div>
+                        <div class="about-col-3">
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>design webapp interfaces</li>
+                        <li><span>web development</span><br>design webapp interfaces</li>
+                                <li><span>app development</span><br>build android apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023-current</span><br>UI/UX Design Training at ET Inistitute</li>
+                                <li><span>2022</span><br>design webapp personaly</li>
+                                <li><span>2020</span><br>alx</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>UI/UX</span><br>design webapp interfaces</li>
+                                <li><span>web development</span><br>design webapp interfaces</li>
+                                <li><span>app development</span><br>build android apps</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mywork">
+          <h1 class="sub-title">My Services</h1>
+            <div class="containe">
+                   <div class="lis">
+                    <h2>web Design</h2>
+                    <p>Breaking Bad is an American crime drama<br>
+                         television series created and <br>
+                        produced by Vince Gilligan for AMC.<br>
+                        Set and filmed in Albuquerque, New Mexico, ...</p>
+                        <a href="#">learn</a>
+                   </div>
+                   <div class="lis">
+                    <h2>App design</h2>
+                    <p>Breaking Bad is an American crime drama<br>
+                        television series created and <br>
+                        produced by Vince Gilligan for AMC.<br>
+                        Set and filmed in Albuquerque, New Mexico, ...</p>
+                        <a href="#">learn</a>
+                    </div>  
+                   <div class="lis">
+                    <h2>UI Design</h2>
+                    <p>Breaking Bad is an American crime drama<br>
+                         television series created and <div>
+                        produced by Vince Gilligan for AMC.<br>
+                        Set and filmed in Albuquerque, New Mexico, ...</p>
+                        <a href="#">learn</a>
+                   </div> 
+             </div>
+        </div>
+    <div id="portofolio">
+     <h1 class="sub-title">My work</h1>
+     <div class="container">
+            <div class="layer">
+            <img src="download (3).jpg">
+                <h3>social media app</h3>
+                <p>This app connects you to the taleted people around the world</p>
+                <a><i class="fas fa-external-link-alt"></i></a>
+             </div>
+             <div class="layer">
+                <img src="download (3).jpg">
+                <h3>online shopping app</h3>
+                <p>This app connects you to the taleted people around the world</p>
+                <a><i class="fas fa-external-link-alt"></i></a>
+             </div>
+             <div class="layer">
+                <img src="download (3).jpg">
+                <h3>Music app</h3>
+                <p>This app connects you to the taleted people around the world</p>
+                <a><i class="fas fa-external-link-alt"></i></a>
+             </div>
+        </div>
+     </div>
+   </div>
+        <script>
+         function opentab(tabname, event) {
+    Array.from(tablinks).forEach(function(tablink) {
+        tablink.classList.remove("active-links");
+    });
+
+    Array.from(tabcontents).forEach(function(tabcontent) {
+        tabcontent.classList.remove("active-tab");
+    });
+
+    event.currentTarget.classList.add("active-links");
+    document.getElementById(tabname).classList.add("active-tab");
+         }
+        </script>
+    </i>
+</html>
